@@ -1,6 +1,7 @@
 import Image from "next/image";
 import wondersImages, { WonderImage } from "../../../wonders";
-import Modal from "@/components/modal";
+import Modal from "@/app/components/modal";
+
 
 export default function PhotoModal({
   params: { id },
